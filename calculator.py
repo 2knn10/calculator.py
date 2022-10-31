@@ -1,15 +1,42 @@
-operator =  input("Please Enter The operator : ")
+print("""
+
+|=================================================|
+|      [ + ] by kavani                            |
+|=================================================|
+|      [ + ] Instagram : 2knn01                   |                   
+|=================================================|
+|      [ + ] Telegram : https://t.me/kavani2knn10 |                   
+|=================================================| 
+
+=====================================================
+- Addition       [ 1 ] 
+
+- Subtract       [ 2 ]
+
+- Division       [ 3 ]
+
+- Multiplication [ 4 ]
+
+======================================================
+""")
+print("--------------------------------------------------")
+choose = input("Please Choose Option : ")
+print("--------------------------------------------------")
 num1 = int(input("Enter Number : " ))
+print("--------------------------------------------------")
 num2 = int(input("Enter Two Number : " ))
-    
-if operator == "+":
-        print(num1 + num2 )
-elif operator == "-":
-        print(num1 - num2 )
-elif operator == "/":
-        print(num1 / num2 )
-elif operator == "*":
-        print(num1 * num2 )
+print("--------------------------------------------------")
+
+
+   
+if choose == '1':  
+         print(num1 + num2 )
+if choose == '2':
+         print(num1 - num2 )
+if choose == '3':
+         print(num1 / num2 )
+if choose == '4':
+                 print(num1 * num2 )
 else:
-    print("Error")
+     print("Foulse")
     
